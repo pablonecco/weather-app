@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(41, 93, 151);
+}
+
+#container {
+    border: 1px solid black;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(47, 110, 182);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 4px rgb(44, 44, 44);
+    font-family: "Raleway", sans-serif;
+}
+
+#weatherData {
+    text-align: center;
+}
+
+.cityInput {
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    font-size: 15px;
+}
+
+.searchButton {
+    padding: 10px;
+    font-size: 15px;
+}

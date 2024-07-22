@@ -12,7 +12,7 @@ document.getElementById('searchButton').addEventListener('click', () => {
 })
 
 function getWeather(city) {
-    fetch(`${URL_BASE}?q=${city}&appid=${API_KEY}&lang=es`)
+    fetch(`${URL_BASE}?q=${city.trim()}&appid=${API_KEY}&lang=es`)
         .then(data => data.json())
         .then(data => showWeather(data))
 }

@@ -22,13 +22,13 @@ function showWeather(data) {
     const weatherData = document.getElementById('weatherData')
     weatherData.innerHTML = ''
     const cityData = data.name
-    const tempData = Math.floor(data.main.temp+diff_kelvin)
+    const tempData = Math.floor(data.main.temp + diff_kelvin)
     const descriptionData = data.weather[0].description
     const countryData = data.sys.country
     const imgData = data.weather[0].icon
 
-    const tempCity = document.createElement ('h2')
-    const description = document.createElement ('p')
+    const tempCity = document.createElement('h2')
+    const description = document.createElement('p')
     const icon = document.createElement('img')
     tempCity.textContent = `La temperatura en ${cityData}, ${countryData}, es: ${tempData}°`
     description.textContent = `El estado del clima es: ${descriptionData}`

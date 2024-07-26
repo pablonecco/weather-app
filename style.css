@@ -25,9 +25,20 @@ body {
     margin: 10px;
     width: 70%;
     font-size: 15px;
+    border-radius: 7px;
+    font-family: "Raleway" ;
 }
 
 .searchButton {
     padding: 10px;
     font-size: 15px;
+    border-radius: 7px;
+    font-family: "Raleway";
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.searchButton:hover {
+    background-color: rgb(233, 209, 74);
+    cursor: pointer;
 }
